@@ -1,9 +1,9 @@
 {
-  "name": "neta-io/shopware-sdk",
+  "name": "livarioJoeBin/shopware-sdk",
   "description": "A PHP SDK for the Shopware 5 REST API.",
   "license": "MIT",
   "require": {
-    "php": "^8.0",
+    "php": ">=8.0",
     "guzzlehttp/guzzle": "^7.0",
     "illuminate/support": "^9.0"
   },
@@ -11,13 +11,14 @@
     "phpunit/phpunit": "^9.0"
   },
   "replace": {
-    "leadcommerce/shopware-sdk": "*"
+    "leadcommerce/shopware-sdk": "*",
+    "net-io/shopware-sdk": "*"
   },
   "autoload": {
     "psr-0": {
-      "Neta\\Shopware\\SDK\\": "src/",
-      "Neta\\Tests\\Unit\\": "tests/",
-      "Neta\\Tests\\Functional\\": "tests/"
+      "livarioJoeBin\\Shopware\\SDK\\": "src/",
+      "livarioJoeBin\\Tests\\Unit\\": "tests/",
+      "livarioJoeBin\\Tests\\Functional\\": "tests/"
     }
   }
 }
